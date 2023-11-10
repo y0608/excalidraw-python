@@ -1,5 +1,5 @@
 class ExcalidrawCanvas:
-    def __init__(self):
+    def __init__(self, gridSize=None, backgroundColor="#ffffff"):
         self.elements = []
         self.canvas_json = {
             "type": "excalidraw",
@@ -7,8 +7,8 @@ class ExcalidrawCanvas:
             "source": "https://excalidraw.com",
             "elements": self.elements,
             "appState": {
-                "gridSize": None,
-                "viewBackgroundColor": "#aaaaaa"
+                "gridSize": gridSize,
+                "viewBackgroundColor": backgroundColor
             },
             "files": {}
         }
