@@ -24,5 +24,9 @@ class ExcalidrawCanvas:
             element.add_to_group(group_id)
         self.elements.append(element.to_json())
 
+    def add_elements(self, elements, group_id=None):
+        for element in elements:
+            self.add_element(element, group_id)
+
     def to_json(self):
         return self.canvas_json

@@ -2,6 +2,7 @@
 Python code that generates excalidraw files
 
 ### TODO
+* make this a package
 * Read a bit of the source code of excalidraw
 #### Rectangle
 * What are: version, versionNonce, id, seed, groupIds, frameId, boundElements, updated, link 

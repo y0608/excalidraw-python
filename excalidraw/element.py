@@ -39,7 +39,7 @@ class ExcalidrawElement:
         return self.element
 
 
-class TextElement(ExcalidrawElement):
+class Text(ExcalidrawElement):
     def __init__(self, text="Text", font_size=20, font_family=1, text_align="left", vertical_align="top", baseline=17, **kwargs):
         super().__init__("text", **kwargs)
         self.element.update({

@@ -10,7 +10,6 @@ rec2 = Rectangle(x=30, y=0, width=20, height=20)
 rec3 = Rectangle(x=0, y=30, width=20, height=20)
 rec4 = Rectangle(x=30, y=30, width=20, height=20)
 
-
 g1 = canvas.create_group()
 g2 = canvas.create_group()
 g3 = canvas.create_group()
