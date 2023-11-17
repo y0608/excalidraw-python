@@ -45,8 +45,8 @@ class Text(ExcalidrawElement):
         self.element.update({
             "text": text,
             "fontSize": font_size,
-            "fontFamily": font_family,
-            "textAlign": text_align,
+            "fontFamily": font_family,              # 1 - Hand-draw; 2 - Normal; 3 - Code
+            "textAlign": text_align,                # left; right; center
             "verticalAlign": vertical_align,
             "baseline": baseline,
         })
